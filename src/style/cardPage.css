@@ -1,0 +1,59 @@
+.chips_end, .chips_success, .chips_upcoming{
+    height: fit-content !important;
+    padding: 5px 12px !important;
+    border-radius: 5px  !important;
+    font-size: 12px !important;
+    font-weight: 600;
+}
+
+
+
+
+.chips_end{
+    background: #FF3C002B !important;
+   color: #666666 !important;
+   
+    
+}
+
+.chips_upcoming{
+ background: #F2C94C40 !important;
+ color: #666666 !important;
+
+}
+
+.chips_success{
+    background: #44924C3D !important;
+    color: #44924C !important;
+
+}
+
+
+.time_wrapper, .day, .hours, .min,.sec {
+    display: flex;
+    justify-content: center;
+   gap: 5px;
+   text-align: center;
+   font-size: 18px;
+   font-weight: 600;
+   margin-bottom: 0.5rem;
+   line-height: 20px;
+
+}
+.day, .hours, .min, .sec{
+    flex-direction: column;
+}
+
+.sub_text{
+font-size: 15px;
+font-weight: 500;
+}
+
+
+
+.btn.prt-btn.green{
+   background: #44924C !important;
+  font-family: 'Poppins' !important;
+  color: white !important;
+}
+
